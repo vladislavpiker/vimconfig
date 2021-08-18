@@ -4,7 +4,7 @@ This is my config of vim text editor
 ## Installation
 For setup vim run setup.sh with root privileges:
 ```bash
-    sudo setup.sh
+    sudo bash setup.sh
 ```
 Wait for the installation and configuration to complete.
 
