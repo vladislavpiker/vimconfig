@@ -26,6 +26,8 @@ nmap <F2> :NERDTreeToggle<CR>
 " python run on <F5>
 autocmd FileType python nnoremap <buffer> <F5> :!python3 %<CR>
 
+" markdown preview on <F5>
+autocmd FileType markdown nnoremap <buffer> <F5> :PreviewMarkdown right<CR>
 
 " plugins
 call plug#begin('~/.vim/plugged')
