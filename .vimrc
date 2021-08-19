@@ -1,6 +1,10 @@
 set nocompatible
 set nu
 
+" disable swap
+set noswapfile
+set nobackup
+
 " tabs and indent
 set tabstop=4 
 set shiftwidth=4
