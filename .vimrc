@@ -20,8 +20,11 @@ nmap <F3> :noh <CR>
 " shared clipboard
 set clipboard=unnamedplus
 
-"NERDTree
+" NERDTree
 nmap <F2> :NERDTreeToggle<CR>
+
+" python run on <F5>
+autocmd FileType python nnoremap <buffer> <F5> :!python3 %<CR>
 
 
 " plugins
